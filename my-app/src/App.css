@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.App-todo {
+  background-color: #3f0958;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-todo li {
+  list-style-type: circle;
+  text-align: left;
+}
