@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #2f0048;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -37,6 +37,15 @@
   }
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
+main{
+  background-color: #3f0958;
+  color :white
+}
+
 .App-todo {
   background-color: #3f0958;
   display: flex;
@@ -50,4 +59,33 @@
 .App-todo li {
   list-style-type: circle;
   text-align: left;
+}
+
+.navbar {
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  background-color: #2f0048;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar ul{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar a {
+  padding: 1vmin;
+  margin: 2vmin;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease; 
+}
+
+.navbar a:hover {
+  text-decoration: underline;
 }
