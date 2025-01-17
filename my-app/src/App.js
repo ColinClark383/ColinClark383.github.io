@@ -1,13 +1,14 @@
 import './App.css';
 import Navbar from './navbar';
+import Titlehead from './titlehead';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <Navbar />
-        <h1>Colin Clark</h1>
-        <p>Modern computions, unique solutions</p>
+        <Titlehead />
+        
       </header>
       <main>
       <div className="App-todo">
@@ -15,8 +16,7 @@ function App() {
         <ul>
           <li>set up css design</li>
           <li>set up departments of info(about, projects, contact, etc)</li>
-          <li>Figure out <i>actual</i> tagline</li>
-          <li>nav bar for easy navigation</li>
+          <li>put actual picture of myself</li>
           <li>replace icons from react ones</li>
           <li>have fun and learn!</li>
         </ul>
